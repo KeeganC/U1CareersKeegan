@@ -1,0 +1,102 @@
+﻿<Window x:Class="U1CareersKeegan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1CareersKeegan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="610.25" Width="830">
+    <Grid Margin="0,0,0,0">
+        <Image 
+            x:Name="imgComPart"
+            HorizontalAlignment="Left" 
+            Width="400"
+            Source="https://www.telemart.pk/media/catalog/product/cache/7/thumbnail/9df78eab33525d08d6e5fb8d27136e95/c/c/ccgreen.jpg" Height="309" VerticalAlignment="Top" Margin="10,0,0,0"/>
+        <TextBox 
+            x:Name="txbColumn1"
+            TextWrapping="WrapWithOverflow"
+            Text="Corsair Vengeance C70 Mid-Tower Gaming Case"
+            FontSize="20"
+            HorizontalAlignment="Center" 
+            Height="258" 
+            Margin="10,322,616,-1" 
+            VerticalAlignment="Top" 
+            Width="200"
+            IsReadOnly="True"/>
+        <TextBox 
+            x:Name="txbColumn2"
+            TextWrapping="WrapWithOverflow"
+            Text="http://www.corsair.com/en-us/vengeance-c70-mid-tower-gaming-case-gunmetal-black"
+            FontSize="12"
+            HorizontalAlignment="Center" 
+            Height="257" 
+            Margin="208,322,414,0" 
+            VerticalAlignment="Top" 
+            Width="200"
+            IsReadOnly="True"/>
+        <TextBox 
+            x:Name="txbColumn3"
+            TextWrapping="WrapWithOverflow"
+            Text="159.99$"
+            FontSize="20"
+            HorizontalAlignment="Center" 
+            Height="258" 
+            Margin="408,322,214,-1" 
+            VerticalAlignment="Top" 
+            Width="200"
+            IsReadOnly="True"/>
+        <TextBox 
+            x:Name="txbColumn4"
+            TextWrapping="WrapWithOverflow"
+            Text="1"
+            FontSize="20"
+            HorizontalAlignment="Center" 
+            Height="258" 
+            Margin="610,322,16,-1" 
+            VerticalAlignment="Top" 
+            Width="200"
+            IsReadOnly="True"/>
+        <Button 
+            x:Name="btnPage2"
+            Content="CPU" 
+            HorizontalAlignment="Left" 
+            Height="24" 
+            Margin="547,237,0,0" 
+            VerticalAlignment="Top" 
+            Width="115"
+            Click="btnPage2_Click"/>
+        <Button 
+            x:Name="btnPage3"
+            Content="Motherboard" 
+            HorizontalAlignment="Left" 
+            Height="24" 
+            Margin="547,261,0,0" 
+            VerticalAlignment="Top" 
+            Width="115"
+            Click="btnPage3_Click"/>
+        <Button 
+            x:Name="btnPage1"
+            Content="Case" 
+            HorizontalAlignment="Left" 
+            Height="24" 
+            VerticalAlignment="Top" 
+            Width="115"
+            Click="btnPage1_Click" Margin="547,213,0,0"/>
+        <Button x:Name="btnPage4" 
+                Content="Storage"
+                HorizontalAlignment="Left" 
+                Height="24" 
+                Margin="547,285,0,0" 
+                VerticalAlignment="Top" 
+                Width="115"
+                Click="btnPage4_Click"/>
+        <Label x:Name="lbl"
+               Content="Unversity of Toronto" 
+               FontSize="48"
+               HorizontalAlignment="Left" 
+               Height="58" 
+               Margin="400,10,0,0" 
+               VerticalAlignment="Top" 
+               Width="412" FontFamily="Times New Roman"/>
+    </Grid>
+</Window>
