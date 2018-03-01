@@ -1,4 +1,4 @@
-﻿/*Keegan Chan
+/*Keegan Chan
 Feb 26 2018
 U1CareersKeegan
 Show information about the UofT computer science program
@@ -47,7 +47,7 @@ namespace U1CareersKeegan
             txbColumn2.Text = " -Recommended courses: \n Advanced Functions(MHF4U) \n Mathematics of Data Management(MDM4U) \n Strangely, Computer science(ICS4U) is not written anywhere as required or recommended but is a good idea.";
             txbColumn3.Text = "Low 90 grade averages are required at least to get into the program but most entrants have averages of 95 or more.";
             txbColumn4.Text = "No portfolios or additional requirements needed.";
-            BitmapImage bi = new BitmapImage(new Uri("http://engineering.nyu.edu/files/imagecache/img_full/content_images/computer-science-bridge-page-thumb-250X188.jpg"));
+            BitmapImage bi = new BitmapImage(new Uri("https://bloximages.chicago2.vip.townnews.com/argusobserver.com/content/tncms/assets/v3/editorial/8/b3/8b3ee832-db79-11e7-af09-0bc595ab092f/5a2983a7a83ed.image.jpg"));
             imgComPart.Source = bi;
             imgCover1.Visibility = Visibility.Hidden;
         }
@@ -58,17 +58,17 @@ namespace U1CareersKeegan
             txbColumn2.Text = "CSC 148H1 - Introduction to Computer Science \n \n CSC 165H - Mathematical Expression and Reasoning for Computer Science";
             txbColumn3.Text = " CSC 240H1 - Enriched Introduction to the Theory of Computation \n \n MAT135H1 - Calculus";
             txbColumn4.Text = "To complete a major in computer science you need 8.0 full course equivalents [FCEs], including at least 0.5 FCE at the 400-level in at least three years, 2.5 credits in the first two years and 3 credits in any later years.";
-            BitmapImage bi = new BitmapImage(new Uri("https://images-na.ssl-images-amazon.com/images/I/61LrNFyFJqL.jpg"));
+            BitmapImage bi = new BitmapImage(new Uri("https://www.bu.edu/cs/files/2017/03/subject-box-2a.jpg"));
             imgComPart.Source = bi;
             imgCover1.Visibility = Visibility.Hidden;
         }
         private void btnPage4_Click(object sender, RoutedEventArgs e)
         {
-            txbColumn1.Text = "Seagate - Barracuda 2TB 3.5 inches 7200RPM Internal Hard Drive";
-            txbColumn2.Text = "https://www.seagate.com/ca/en/internal-hard-drives/hdd/barracuda/";
-            txbColumn3.Text = "69.49$";
-            txbColumn4.Text = "4";
-            BitmapImage bi = new BitmapImage(new Uri("https://www.webantics.com/content/images/thumbs/007/0070614_seagate-barracuda-2tb-sata-iii-7200rpm-35-internal-hard-drive_600.jpeg"));
+            txbColumn1.Text = "Computer programmers are in a fast growing industry with everything becoming digital. Many Computer science graduates find jobs such as software architecture and design, programming, analysis of user requirements, or quality assurance, or if they are more entrepreneurial, running software production or consulting firms";
+            txbColumn2.Text = "Graduates from more specialized programs can be found in jobs like computer graphics and animation, game programming, web application development, user-interface design, mathematical and scientific programming, financial modelling, and robotics.";
+            txbColumn3.Text = "Some of the more successful or adacemic students could go on to research careers in industrial or government laboratories, or academic careers at the university level.";
+            txbColumn4.Text = "UofT even adds additional help in getting some experience before graduates are out in the job market by offering a PEY (Proffesional Experience Year) to help students get some workplace experience to help them get started.";
+            BitmapImage bi = new BitmapImage(new Uri("http://career.iresearchnet.com/wp-content/uploads/2014/05/computer-careers-1.jpg"));
             imgComPart.Source = bi;
             imgCover1.Visibility = Visibility.Hidden;
         }
